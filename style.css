@@ -1,0 +1,127 @@
+*{margin: 0; padding: 0}
+
+.mainpagebackground{
+    background-image: url(images/night.jpg);
+}
+
+.minorbackgroundimage{
+    position: relative;
+    text-align: center;
+    margin: 0%;
+}
+
+.minorbackgroundimage img{
+    width: 100%;
+}
+
+#bowietitlemain {
+    position: absolute;
+    text-align: left;
+    left: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 8px 8px brown;
+    font-size: 128px;
+    color:navy;
+}
+
+#bowietitlesecond{
+    position: absolute;
+    text-align: left;
+    left: 150px;
+    top: 82px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 6px 6px beige;
+    font-size: 56px;
+    color:brown;
+
+}
+
+.quotesection{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 96px;
+    color:DarkCyan;
+}
+
+h2 {
+    font-family: Verdana, Tahoma, serif;
+    line-height: 3.5;
+    font-size: 28px;
+    color: DarkCyan;
+}
+
+p img { 
+    float: right; 
+    margin-right:125px; 
+    width: 450px; 
+}
+
+.mainpagebackground a:link {
+    text-decoration-line: underline;
+    color:DarkCyan;
+  }
+
+.description1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
+    margin-right: 650px;
+    margin-left: 75px;
+    font-size:18px;
+    background-color: #070420;
+    color:whitesmoke;
+}
+
+.minorpersonaheading{
+    font-family: Verdana, Tahoma, serif;
+    text-align: right;
+    margin-right: 650px;
+    line-height: 3.5;
+    font-size: 28px;
+    background-color: #070420;
+    color: DarkCyan;
+}
+
+.highlightnight{
+    background-color: #070420;
+}
+
+#quote{
+    font-size:80px;
+    line-height: 2;
+    color:white;
+    text-shadow: 12px 12px darkgrey;
+}
+
+#quote2{
+    font-size:68px;
+    line-height: 2;
+    color:rgb(219, 221, 152);
+    text-shadow: 12px 12px rgb(164, 163, 126);
+}
+
+#quoteAuthor {
+    font-size:24px;
+    color:lightcyan;
+}
+
+#explanationmainpage{
+    text-align: center;
+    margin-right: 250px;
+    margin-left: 250px;
+    font-size:24px;
+}
+
+#personasheading{
+    text-align: center;
+    margin-right: 250px;
+    margin-left: 250px;
+    text-decoration-line: underline;
+}
+
+#hr1{
+    width:54%;
+}
