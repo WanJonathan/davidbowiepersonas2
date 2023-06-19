@@ -1,7 +1,27 @@
 *{margin: 0; padding: 0}
 
-.mainpagebackground{
+.homebackground{
     background-image: url(images/night.jpg);
+}
+
+.dukebackground{
+    background-color:black;
+}
+
+.pierrotbackground{
+    background-color:rgb(255, 245, 254);
+}
+
+.jackbackground{
+    background-color:rgb(193, 167, 0);
+}
+
+.tombackground{
+    background-color:rgb(3, 2, 39);
+}
+
+.ziggybackground{
+    background-color:rgb(255, 146, 103);
 }
 
 .minorbackgroundimage{
@@ -28,12 +48,11 @@
     position: absolute;
     text-align: left;
     left: 150px;
-    top: 82px;
+    top: 120px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 6px 6px beige;
     font-size: 56px;
     color:brown;
-
 }
 
 .quotesection{
@@ -41,55 +60,292 @@
     text-align: center;
 }
 
-h1 {
+
+p{
+    font-size:24px
+
+}
+
+h1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 96px;
     color:DarkCyan;
 }
 
-h2 {
+h2{
     font-family: Verdana, Tahoma, serif;
-    line-height: 3.5;
     font-size: 28px;
     color: DarkCyan;
 }
 
-p img { 
+.duketable th, td {
+    border: whitesmoke;
+}
+
+.pierrottable th, td {
+    border: whitesmoke;
+}
+
+.duketable{
+    color: whitesmoke;
+}
+
+.pierrottable{
+    color: rgb(46, 46, 46);
+}
+
+.jacktable{
+    color: rgb(255, 210, 144);
+}
+
+.tomtable{
+    color: rgb(60, 193, 255); 
+}
+
+th, td{
+    border: 3px solid;
+    height: 40px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    padding: 5px;
+}
+
+table{
+    width: 46%;
+}
+
+.homebackground p img { 
     float: right; 
     margin-right:125px; 
     width: 450px; 
 }
 
-.mainpagebackground a:link {
-    text-decoration-line: underline;
-    color:DarkCyan;
-  }
+.twdtitle{
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    margin-left:50px;
+    font-size: 96px;
+    color:whitesmoke;
+}
 
-.description1 {
+#twdtitle2{
+    position: absolute;
+    font-family: 'Comforter';
+    font-weight: lighter;
+    text-align: left;
+    top: 315px;
+    left: 200px;
+    font-size: 28px;
+    text-shadow: 3px 3px 5px rgb(43, 42, 42);
+    color:whitesmoke;
+}
+
+.description1{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: right;
     margin-right: 650px;
     margin-left: 75px;
-    font-size:18px;
+    font-size: 18px;
     background-color: #070420;
     color:whitesmoke;
 }
 
+.descriptionleft{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-right: 450px;
+    margin-left: 175px;
+    font-size: 18px;
+    background-color:transparent;
+}
+
+.descriptionright{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 175px;
+    font-size: 18px;
+    background-color:transparent;
+}
+
 .minorpersonaheading{
-    font-family: Verdana, Tahoma, serif;
     text-align: right;
     margin-right: 650px;
     line-height: 3.5;
-    font-size: 28px;
+    color:DarkCyan;
     background-color: #070420;
-    color: DarkCyan;
+}
+
+.minorpersonaheading a:link{
+    text-decoration-line: underline;
+    color:DarkCyan;
+}
+
+.headingleft{
+    text-align: center;
+    margin-right: 450px;
+    margin-left: 175px;
+    line-height: 3.5;
+}
+
+.headingright{
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 175px;
+    line-height: 3.5;
+}
+
+.headingcenter{
+    text-align: center;
+    line-height: 3.5;
+    color:rgb(255, 250, 207);
+}
+
+.dukeheadercolor{
+    color:rgb(255, 250, 207);
+}
+
+.pierrotheadercolor{
+    color:rgb(84, 58, 65);
+}
+
+.jackheadercolor{
+    color:rgb(255, 210, 144);
+}
+
+.tomheadercolor{
+    color:rgb(97, 235, 250);
+}
+
+.ziggyheadercolor{
+    color:rgb(52, 15, 3);
+}
+
+.pierrotcolor{
+    color:rgb(62, 7, 7);
+}
+
+.dukecolor{
+    color:whitesmoke;
+}
+
+.jackcolor{
+    color:rgb(236, 255, 126);
+}
+
+.tomcolor{
+    color:rgb(190, 249, 255);
+}
+
+.ziggycolor{
+    color:rgb(138, 26, 3);
 }
 
 .highlightnight{
     background-color: #070420;
 }
 
-#quote{
+.navigation{
+    position: fixed;
+    width:100%;
+    top: 0;
+    left: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(7, 4, 32,0.3);
+    padding-right:15px;
+    padding-left:15px;
+    top: 0;
+    left: 0;
+}
+
+.navigationdisplay{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aligncenter{
+    display: flex;
+    justify-content: center;
+}
+
+.bold{
+    font-weight:bold;
+}
+
+.italic{
+    font-style:italic;
+}
+
+li{
+    list-style: none;
+    display:inline-block;
+    font-weight: 50;
+    font-size: 24px;
+    margin-right: 15px;
+    margin-left: 15px;
+    color:whitesmoke;
+}
+
+li a{
+    font-weight: 50;
+    font-size: 24px;
+    margin-right: 15px;
+    margin-left: 15px;
+    color:whitesmoke;
+}
+
+.darktext li a{
+    color:grey;
+}
+
+.explanationpage{
+    text-align: center;
+    margin-right: 250px;
+    margin-left: 250px;
+    font-size:24px;
+    background-color:transparent;
+}
+
+.quote{
+    font-size:48px;
+    line-height: 2;
+}
+
+.whitequote{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
+    color: whitesmoke;
+    text-shadow: 3px 3px 5px rgb(192, 192, 192);
+}
+
+.redquote{
+    font-family: 'Comforter';
+    color: rgb(82, 17, 17);
+    text-shadow: 3px 3px 5px rgb(81, 81, 81);
+}
+
+.yellowquote{
+    font-family: 'Comforter';
+    color: rgb(236, 255, 126);
+    text-shadow: 3px 3px 5px rgb(171, 195, 97);
+}
+
+.lightbluequote{
+    font-family: 'Comforter';
+    color:rgb(177, 243, 255);
+    text-shadow: 3px 3px 5px rgb(76, 163, 173);
+}
+
+.ziggyquote{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(141, 1, 1);
+    text-shadow: 3px 0px 2px rgb(2, 14, 127);  
+}
+
+#quote1{
     font-size:80px;
     line-height: 2;
     color:white;
@@ -103,9 +359,35 @@ p img {
     text-shadow: 12px 12px rgb(164, 163, 126);
 }
 
-#quoteAuthor {
+#quoteauthor {
     font-size:24px;
     color:lightcyan;
+}
+
+#quoteauthor2 {
+    font-size:24px;
+    color:whitesmoke;
+}
+
+#quoteauthor3{
+    font-size:24px;
+    color: rgb(119, 33, 33);
+}
+
+#quoteauthor4{
+    font-size:24px;
+    color:rgb(255, 210, 144);
+}
+
+#quoteauthor5{
+    font-size:24px;
+    color:rgb(107, 233, 255);
+}
+
+#quoteauthor5{
+    font-size:24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(82, 45, 45);
 }
 
 #explanationmainpage{
@@ -124,4 +406,288 @@ p img {
 
 #hr1{
     width:54%;
+}
+
+#mainnavoption{
+    font-weight: 50;
+    font-size: 48px;
+    font-family: 'Raleway', serif;
+    text-shadow: 6px 2px brown;
+    color: whitesmoke;
+}
+
+#darkmainnavoption{
+    font-weight: 50;
+    font-size: 48px;
+    font-family: 'Raleway', serif;
+    text-shadow: 6px 2px rgb(74, 243, 255, 0.3);
+    color: brown;
+}
+
+#dukenav{
+    background-color: rgba(63, 63, 63, 0.7);
+}
+
+#homenav{
+    background-color: rgb(7, 4, 32, 0.7);
+}
+
+#jacknav{
+    background-color: rgba(186, 85, 249, 0.7);
+}
+
+#pierrotnav{
+    background-color: rgba(185, 202, 255, 0.7);
+}
+
+#tomnav{
+    background-color: rgba(7, 15, 74, 0.7);
+}
+
+#ziggynav{
+    background-color: rgba(60, 16, 4, 0.7);
+}
+
+
+#twdtitle1pt1{
+    text-shadow: 3px 3px 5px rgb(43, 42, 42);
+    top:50px;
+}
+
+#twdtitle1pt2{
+    text-shadow: 3px 3px 5px rgb(43, 42, 42);
+    top:195px;
+}
+
+#manwhofelltoearth{
+    display: block;
+    border-radius: 8px;
+    margin-left: 175px;
+    margin-right: 450px;
+}
+
+#stationtostation{
+    display: block;
+    margin-left: 175px;
+    margin-right: 450px;
+}
+
+#scarymonsters{
+    display: block;
+    margin-left: 350px;
+    margin-right: 175px;
+}
+
+#pierrothair{
+    float: right;
+    display: block;
+    border-radius: 8px;
+    margin-top: 160px;
+    margin-right: 120px;
+}
+
+#pierrotsmoking{
+    float: left;
+    display: block;
+    border-radius: 8px;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+#dukeperforming{
+    display: block;
+    border-radius: 8px;
+    margin-right: 175px;
+    margin-left: 175px; 
+}
+
+#jackhair{
+    border-radius: 8px;
+    float: left;
+    display: block;
+    margin-top: 175px;
+    margin-left: 75px;
+}
+
+#jackguitar{
+    display: block;
+    border-radius: 8px;
+    margin-left: 175px;
+    margin-right: 450px;
+}
+
+#tomvideo{
+    float: right;
+    display: block;
+    border-radius: 16px;
+    margin-top: 25px;
+    margin-right: 125px;
+}
+
+#tomashes{
+    float: left;
+    display: block;
+    border-radius: 16px;
+    margin-top: 175px;
+    margin-left: 85px;
+}
+
+#tomblackstar{
+    border-radius: 32px;
+}
+
+#ziggyface{
+    float: right;
+    display: block;
+    border-radius: 16px;
+    margin-top: 125px;
+    margin-right: 125px;
+}
+
+#ziggyalbum{
+    display: block;
+    margin-right: 175px;
+    margin-left: 450px;
+}
+
+#ziggyarms{
+    border-radius: 24px;
+}
+
+#pierrottitle{
+    position: absolute;
+    font-family: 'Comforter';
+    font-weight: lighter;
+    text-align: left;
+    margin-left:50px;
+    font-size: 96px;
+    color:black;
+    text-shadow: 3px 3px 5px rgb(81, 81, 81);
+}
+
+#pierrottitle2{
+    position: absolute;
+    font-family: 'Comforter';
+    font-weight: lighter;
+    text-align: left;
+    top: 120px;
+    left: 200px;
+    font-size: 28px;
+    color:black;
+    text-shadow: 2px 2px 5px rgb(81, 81, 81);
+}
+
+#jacktitle{
+    position: absolute;
+    font-family: 'Lobster';
+    text-align: right;
+    top: 50px;
+    right: 50px;
+    font-size: 96px;
+    color:rgb(202, 145, 0);
+    text-shadow: 3px 3px 5px rgb(137, 99, 2);
+}
+
+#jacktitle2{
+    position: absolute;
+    font-family: 'Lobster';
+    text-align: right;
+    top: 195px;
+    right: 50px;
+    font-size: 96px;
+    color:rgb(202, 145, 0);
+    text-shadow: 3px 3px 5px rgb(137, 99, 2);
+}
+
+#jacktitle3{
+    position: absolute;
+    font-family: 'Comforter';
+    font-weight: lighter;
+    text-align: right;
+    top: 315px;
+    right: 200px;
+    font-size: 28px;
+    color:rgb(202, 145, 0);
+    text-shadow: 2px 2px 5px rgb(137, 99, 2);
+}
+
+#tomnav{
+    background-color: rgba(7, 43, 150, 0.3);
+}
+
+#tomtitle{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+    top:125px;
+    margin-left:740px;
+    font-size: 96px;
+    color:rgb(210, 205, 255);
+    text-shadow: 3px 3px 5px rgb(154, 147, 218);
+}
+
+#tomtitle2{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    top:250px;
+    margin-left:970px;
+    font-size: 28px;
+    color:rgb(210, 205, 255);
+    text-shadow: 3px 3px 5px rgb(154, 147, 218);
+}
+
+#tomtitle3{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    top:300px;
+    text-align: left;
+    margin-left: 1030px;
+    font-size: 28px;
+    color:rgb(210, 205, 255);
+    text-shadow: 3px 3px 5px rgb(154, 147, 218);
+}
+
+#tomtitle4{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    top: 350px;
+    margin-left: 1090px;
+    font-size: 28px;
+    color:rgb(210, 205, 255);
+    text-shadow: 3px 3px 5px rgb(154, 147, 218);
+}
+
+#tomtitle5{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    top: 400px;
+    margin-left: 1150px;
+    font-size: 28px;
+    color:rgb(210, 205, 255);
+    text-shadow: 3px 3px 5px rgb(154, 147, 218);
+}
+
+#ziggytitle{
+    position: absolute;
+    font-family: 'Tilt Prism', 'Impact',  'cursive';
+    text-align: left;
+    top:5px;
+    margin-left:55px;
+    font-size: 96px;
+    color:rgb(123, 8, 0);
+    text-shadow: 3px 3px 5px rgb(255, 220, 208);
+}
+
+#ziggytitle2{
+    position: absolute;
+    font-family: 'Tilt Prism', 'Impact',  'cursive';
+    text-align: left;
+    top: 35px;
+    margin-left: 695px;
+    font-size: 28px;
+    color:rgb(123, 8, 0);
+    text-shadow: 3px 3px 5px rgb(255, 220, 208);
 }
